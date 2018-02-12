@@ -1,0 +1,315 @@
+# WordPress Blank Pot
+# Copyright (C) 2014 ...
+# This file is distributed under the GNU General Public License v2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: Keni Pot v1.0.1\n"
+"Report-Msgid-Bugs-To: Translator Name <translations@example.com>\n"
+"POT-Creation-Date: 2016-05-27 16:02+0900\n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Textdomain-Support: yesX-Generator: Poedit 1.6.4\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;esc_html_e;esc_html_x:1,2c;esc_html__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_attr__;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;"
+"_x:1,2c;_n:1,2;_n_noop:1,2;__ngettext:1,2;__ngettext_noop:1,2;_c,_nc:4c,1,2\n"
+"X-Poedit-Basepath: ./\n"
+"X-Generator: Poedit 1.5.7\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: 404.php:17 module/breadcrumbs.php:131 module/meta.php:73
+#: module/meta.php:172
+msgid "Sorry, but you are looking for something that isn&#8217;t here."
+msgstr "お探しのページは見つかりませんでした。"
+
+#: 404.php:19
+msgid "It looks like nothing was found at this location. Maybe try a search?"
+msgstr "お手数ですが、再度検索してください。"
+
+#: comments.php:16
+msgid "This post is password protected. Enter the password to view comments."
+msgstr ""
+"この投稿はパスワードで保護されています。コメントを閲覧するにはパスワードを入"
+"力してください。"
+
+#: comments.php:29
+#, php-format
+msgid "One response to %s"
+msgstr "%s への1件のコメント"
+
+#: comments.php:32
+#, php-format
+msgid "%1$s response to %2$s"
+msgid_plural "%1$s responses to %2$s"
+msgstr[0] "%2$s への%1$s件のフィードバック"
+msgstr[1] "%2$s への%1$s件のフィードバック"
+
+#: comments.php:47
+msgid "Next Comments"
+msgstr "古いコメント"
+
+#: comments.php:48
+msgid "Previous Comments"
+msgstr "新しいコメント"
+
+#: comments.php:59
+msgid "Comments are closed."
+msgstr "コメントは受け付けていません。"
+
+#: comments.php:68
+msgid "Leave a Reply"
+msgstr "コメントをどうぞ"
+
+#: comments.php:68
+#, php-format
+msgid "Leave a Reply to %s"
+msgstr "%s にコメントする"
+
+#: comments.php:75
+#, php-format
+msgid "You must be <a href=\"%s\">logged in</a> to post a comment."
+msgstr "コメントを投稿するには<a href=\"%s\">ログイン</a>してください。"
+
+#: comments.php:82
+#, php-format
+msgid "Logged in as <a href=\"%1$s\">%2$s</a>."
+msgstr "<a href=\"%1$s\">%2$s</a> としてログイン中。"
+
+#: comments.php:82
+msgid "Log out &raquo;"
+msgstr "ログアウト &raquo;"
+
+#: comments.php:87 module/add_extra_fields_category.php:28
+#: module/add_extra_fields_category.php:55 module/character.php:103
+msgid "Name"
+msgstr "名前"
+
+#: comments.php:87 comments.php:92
+msgid "(required)"
+msgstr " (必須) "
+
+#: comments.php:92
+msgid "Mail (will not be published)"
+msgstr "メールアドレス（公開されません）"
+
+#: comments.php:97
+msgid "Website"
+msgstr "ウェブサイト"
+
+#: comments.php:103
+#, php-format
+msgid "<strong>XHTML:</strong> You can use these tags: <code>%s</code>"
+msgstr "<strong>XHTML:</strong> 次のタグを使用できます: <code>%s</code>"
+
+#: comments.php:107
+msgid "Submit Comment"
+msgstr "コメント送信"
+
+#: cont.php:32 functions.php:404
+msgid "see more"
+msgstr "続きを読む"
+
+#: footer.php:23
+msgid "To the top"
+msgstr "ページの先頭へ"
+
+#: functions.php:51
+msgid "Top Menu"
+msgstr "グローバルメニュー"
+
+#: functions.php:52
+msgid "Footer Menu"
+msgstr "フッターメニュー"
+
+#: functions.php:125
+msgid "Sub Content"
+msgstr "サブコンテンツ"
+
+#: functions.php:243 functions.php:245 functions.php:247 functions.php:249
+#: module/breadcrumbs.php:145 module/breadcrumbs.php:152
+#: module/breadcrumbs.php:155 module/breadcrumbs.php:160
+#: module/breadcrumbs.php:163 module/breadcrumbs.php:166
+#: module/breadcrumbs.php:171 module/breadcrumbs.php:172
+#: module/breadcrumbs.php:175 module/breadcrumbs.php:178
+#: module/breadcrumbs.php:187 module/meta.php:40 module/meta.php:54
+#: module/meta.php:56 module/meta.php:58 module/meta.php:131
+#: module/meta.php:136 module/meta.php:138 module/meta.php:140
+#, php-format
+msgid "Archive List for %s"
+msgstr "「%s」の記事一覧"
+
+#: functions.php:245 functions.php:364 module/breadcrumbs.php:175
+#: module/breadcrumbs.php:178 module/meta.php:54 module/meta.php:136
+msgid "F j, Y"
+msgstr "Y年n月j日"
+
+#: functions.php:247 module/breadcrumbs.php:163 module/breadcrumbs.php:166
+#: module/breadcrumbs.php:172 module/meta.php:56 module/meta.php:138
+msgid "F Y"
+msgstr "Y年n月"
+
+#: functions.php:249 module/breadcrumbs.php:152 module/breadcrumbs.php:155
+#: module/breadcrumbs.php:160 module/breadcrumbs.php:171 module/meta.php:58
+#: module/meta.php:140
+msgid "Y"
+msgstr "Y年"
+
+#: functions.php:251 module/breadcrumbs.php:182 module/meta.php:63
+#: module/meta.php:144
+msgid "Archive List for authors"
+msgstr "さんの記事一覧"
+
+#: functions.php:255 module/meta.php:153
+#, php-format
+msgid "Tag List for %s"
+msgstr "「%s」タグの記事一覧"
+
+#: functions.php:257 module/meta.php:69 module/meta.php:159
+msgid "Archive List for blog"
+msgstr "ブログ記事一覧"
+
+#: functions.php:293 module/breadcrumbs.php:127 module/meta.php:71
+#: module/meta.php:169
+#, php-format
+msgid "Search Result for %s"
+msgstr "「%s」の検索結果一覧"
+
+#: functions.php:329
+msgid "Latest Info"
+msgstr "最新情報"
+
+#: functions.php:337
+msgid "Your blog&#8217;s WordPress Pages"
+msgstr "固定ページのリスト"
+
+#: functions.php:368
+msgid "F j"
+msgstr "n月j日"
+
+#: functions.php:374
+#, php-format
+msgid "%s days ago"
+msgstr "%s日前"
+
+#: functions.php:375
+#, php-format
+msgid "%s day ago"
+msgstr "%s日前"
+
+#: functions.php:376
+msgid "Less than a day ago"
+msgstr "24時間以内"
+
+#: functions.php:389 social-button.php:4 social-button2.php:4
+msgid "Tweet"
+msgstr "ツイート"
+
+#: functions.php:392 social-button.php:7 social-button2.php:7
+#, fuzzy
+msgid "Add this entry to Hatena Bookmark."
+msgstr "このエントリーをはてなブックマークに追加"
+
+#: functions.php:523
+#, fuzzy
+msgid "Sorry, but you are looking for an entry that isn&#8217;t here."
+msgstr "お探しのページは見つかりませんでした。"
+
+#: functions.php:726 functions.php:788 page.php:56 single.php:62
+msgid "Tags"
+msgstr "タグ"
+
+#: functions.php:977
+msgid "Related Posts"
+msgstr "関連記事"
+
+#: functions.php:1029 functions.php:1105
+msgid "Menu"
+msgstr "メニュー"
+
+#: functions.php:1579
+msgid "Next Posts"
+msgstr "以前の記事"
+
+#: functions.php:1580
+msgid "Previous Posts"
+msgstr "新しい記事"
+
+#: functions.php:1854
+msgid "Keni Settings"
+msgstr "賢威の設定"
+
+#: functions.php:1873 module/character.php:100
+msgid "Character Setting"
+msgstr "キャラ一覧"
+
+#: functions.php:1874 module/character.php:100
+msgid "Character Registration"
+msgstr "キャラ登録"
+
+#: functions.php:1884
+msgid "News from Keni support team"
+msgstr "賢威サポートチームからのお知らせ"
+
+#: functions.php:1944 functions.php:1945
+msgid "Common Contents"
+msgstr "共通コンテンツ一覧"
+
+#: functions.php:1999
+msgid "Landing Pages"
+msgstr "ランディングページ一覧"
+
+#: functions.php:2435
+msgid "PV Ranking"
+msgstr "PV数ランキング"
+
+#: functions.php:2818
+msgid "Recent Posts with Images"
+msgstr "最近の投稿"
+
+#: page.php:44 single.php:49 module/meta.php:47
+msgid "Pages"
+msgstr "ページ"
+
+#: single.php:20
+msgid "Published on"
+msgstr "公開日"
+
+#: single.php:20
+msgid "Last modified on"
+msgstr "更新日"
+
+#: module/add_extra_fields_category.php:34
+#: module/add_extra_fields_category.php:62
+msgid "Text Color"
+msgstr "テキストの色"
+
+#: module/add_extra_fields_category.php:38
+#: module/add_extra_fields_category.php:64
+msgid "Background Color"
+msgstr "背景色"
+
+#: module/breadcrumbs.php:53
+#, php-format
+msgid "View all posts in %s"
+msgstr "%s の全投稿を表示"
+
+#: module/breadcrumbs.php:83 module/breadcrumbs.php:107
+#: module/breadcrumbs.php:271 module/breadcrumbs.php:278
+#: module/breadcrumbs.php:285
+msgid "Page"
+msgstr "ページ目"
+
+#: module/meta.php:113
+#, php-format
+msgid "A list of archives of %s %s %s"
+msgstr "%sのブログ記事一覧 %s です。%s"
+
+#: module/meta.php:121
+#, php-format
+msgid "A page of %s. %s"
+msgstr "「%s」のページです。 %s"

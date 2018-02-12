@@ -1,0 +1,34 @@
+<?php get_header(); ?>
+
+<div class="main-body">
+<div class="main-body-in">
+	
+	<!--▼メインコンテンツ-->
+	<main id="main">
+	<article id="post-<?php the_ID(); ?>" <?php post_class('main-conts'); ?>>
+
+<?php while (have_posts()) : the_post(); ?>
+
+<?php $content = get_the_content();
+if (substr_count($content, "[wide]") <= 0 && substr_count($content, "[normal]") <= 0) { ?>
+<div class="section-wrap">
+<div class="section-in">
+<?php the_content(); ?>
+</div>
+</div>
+<?php } else {
+	the_content();
+} ?>
+		
+<?php endwhile; ?>
+
+	</article><!--main-conts-->
+	</main>
+	<!--▲メインコンテンツ-->
+
+	<?php get_sidebar(); ?>
+
+</div>
+</div>
+
+<?php get_footer(); ?>
